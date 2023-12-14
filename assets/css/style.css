@@ -2,13 +2,22 @@ html{
     font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
     "Droid Sans Mono", monospace, monospace;;
   }
-  
+
+body {
+    background: linear-gradient(blue, white, white, red);
+    height: 100vh;
+}  
+
+h1{
+    color: white;
+}
 form, main {
     margin: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15%;
+    
   }
 
   form {
