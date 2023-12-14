@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Projects-JS-Vertiefung-Level-3_23</title>
 </head>
+
 <body>
-    <h1></h1>
-    
+    <main>
+    <h1>Zeichen Kette trennungs MASCHINE</h1>
+    <section>
+        <form onsubmit="checkData(); return false">
+            <label for="mainText">Zu trennende Zeichenkette</label>
+            <input type="text" id="satzInput" value="gib ein Satz hier ein....">
+            <label for="mainText">Trenne bei Zeichekette</label>
+            <input type="text" id="satzInput" value="trenn-buchstabe ab ?">
+<div>
+            <label for="daVor">Davor Trennen?</label>
+            <input type="radio" name="vorTrenn" id="daVorTrenn">
+            <label for="daNach">Danach trennen?</label>
+            <input type="radio" name="nachTrenn" id="daNachTrenn">
+</div>
+            <input type="submit" value="Trennen">
+
+            <h3>Vorderer Teil:<span id="resultVor"></span></h3>
+
+            <h3>Hinterer Teil:<span id="resultNach"></span></h3>
+
+
+
+        </form>
+    </main>
+    </section>
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
