@@ -30,35 +30,3 @@ Um die Funktionalität und das Erscheinungsbild des Formulars zu verstehen, scha
 
 ## Gefertigt bei Farhad
 
-## Beispiel
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeichenketten-Trennungsformular</title>
-    <style>
-        /* Füge hier dein optionales CSS-Styling hinzu */
-    </style>
-</head>
-<body>
-
-    <h1>Zeichenketten-Trennungsformular</h1>
-
-    <form id="trennungsFormular">
-        <!-- ... (siehe Beispiel für HTML-Formular oben) -->
-    </form>
-
-    <div id="ergebnisAnzeige"></div>
-
-    <script>
-        function trenneZeichenketten() {
-            // Implementiere die Logik zur Trennung der Zeichenketten hier
-        }
-    </script>
-
-</body>
-</html>
-
