@@ -4,9 +4,6 @@
 
 Dieses Projekt ist eine Übung, bei der ein Formular erstellt wird. Das Ziel ist es, zwei Zeichenketten einzugeben und die erste Zeichenkette an der Stelle zu teilen, an der die zweite Zeichenkette innerhalb der ersten gefunden wird. Die Richtung der Trennung (vor oder nach der gefundenen Zeichenkette) kann über Radio-Buttons spezifiziert werden.
 
-## Vorschau
-
-Um die Funktionalität und das Erscheinungsbild des Formulars zu verstehen, schau dir die [Vorschau](#) an.
 
 ## Anleitung
 

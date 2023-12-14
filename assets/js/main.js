@@ -15,6 +15,6 @@ function checkData() {
         document.getElementById('resultVor').textContent = vor;
         document.getElementById('resultNach').textContent = nach;
     } else {
-        alert("Die Trenn-Zeichenkette wurde nicht in der Haupt-Zeichenkette gefunden.");
+        alert("Findet Trenn-Zeichenkette nicht!");
     }
 }
